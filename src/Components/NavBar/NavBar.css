@@ -1,0 +1,12 @@
+.font400{
+    font-weight: 400;
+}
+.fSize{
+    font-size: clamp(18px, 2vw,21.14px);
+}
+.font300{
+    font-weight: 300;
+}
+.foSize{
+   font-size: clamp(13px,2vw,19.97px);
+}
