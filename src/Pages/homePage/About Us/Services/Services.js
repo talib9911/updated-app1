@@ -19,12 +19,11 @@ const Services = () => {
     <div className="w-[100%] " style={{ zIndex: "10", marginTop: "-120px" }}>
       <div className="bg-[#212529] pt-[400px]">
         <h1
-          className="text-white"
+          className="text-white pl-[65px] xl:pl-[120px] pr-[590px]"
           style={{
             fontWeight: "400",
             fontSize: "64px",
             paddingTop: "500px",
-            padding: "0px 590px 0px 120px",
           }}
         >
           Services
@@ -39,21 +38,20 @@ const Services = () => {
             paddingBottom: "50px",
             lineHeight:"25px"
           }}
-          className="pl-[120px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
+          className="pl-[65px] xl:pl-[120px] pr-11 2xl:pr-[1180px] "
         >
 Discover our comprehensive range of services tailored to meet your energy efficiency, LED lighting, photovoltaic energy, and much more.
         </p>
       </div>
-      <div className="bg-white pl-[120px] lg:pr-[190px]">
+      <div className="bg-white pl-[65px] xl:pl-[120px] pr-[44px] lg:pr-[170px]">
       {items.map((item, index) => (
         <div key={index}>
           <button
-            className="w-full flex justify-between items-center text-left p-3 b-#A6A6AB border-t-2  hover:bg-gray-200"
+            className="w-full flex justify-between items-center text-left pt-3 b-#A6A6AB border-t-2 text-[30px] md:text-[48px] hover:bg-gray-200"
             style={{
                 fontWeight: "400",
-                fontSize: "48px",
                 color: "#212529",
-                marginTop: "40px",
+                marginTop: "19px",
               }}
             onClick={() => handleClick(index)}
           >
@@ -66,7 +64,7 @@ Discover our comprehensive range of services tailored to meet your energy effici
         </div>
       ))}
       </div>
-      <div className="flex items-center flex-col lg:flex-row justify-end px-[40px] mt-[-390px] lg:mt-0 lg:pl-[0px] lg:pr-[60px]">
+      <div className="flex items-center flex-col lg:flex-row justify-end px-[40px] mt-[-390px] lg:mt-[70px] lg:pl-[0px] lg:pr-[140px]">
         <p
           style={{
             fontWeight: "400",
@@ -81,7 +79,7 @@ Discover our comprehensive range of services tailored to meet your energy effici
         </p>
         <img src={fan} className="w-[700px]" />
       </div>
-      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[40px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
+      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[40px] xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
               <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
               Proudly helping businesses
               </h2>

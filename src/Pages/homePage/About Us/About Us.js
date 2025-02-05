@@ -6,12 +6,11 @@ const About_Us = () => {
     <div className="w-[100%] " style={{ zIndex: "10", marginTop: "-120px" }}>
       <div className="bg-[#f4f4f4] pt-[400px]">
         <h1
-          className="text-[#212529]"
+          className="text-[#212529] pl-[65px] lg:pl-[120px] xl:pr-[590px]"
           style={{
             fontWeight: "400",
             fontSize: "64px",
             paddingTop: "500px",
-            padding: "0px 590px 0px 120px",
           }}
         >
           About us
@@ -25,13 +24,13 @@ const About_Us = () => {
             marginBottom: "70px",
             paddingBottom: "50px",
           }}
-          className="pl-[120px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
+          className="pl-[65px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
         >
           Learn more about Oakland C.E. and our commitment to excellence,
           innovation, and sustainability.
         </p>
       </div>
-      <div className="bg-white pl-[120px] lg:pr-[590px]">
+      <div className="bg-white pl-[65px] lg:pl-[120px] xl:pr-[590px]">
         <h3
           style={{
             fontWeight: "400",
@@ -58,7 +57,7 @@ const About_Us = () => {
         </p>
         <img src={meeting} className="w-[700px]" />
       </div>
-      <div className="mt-[120px] pl-[40px] pr-[40px] lg:pl-[120px] lg:pr-[990px]">
+      <div className="mt-[70px] xl:mt-[90px] pl-[40px] pr-[40px] 2xl:pl-[120px] 2xl:pr-[990px]">
         <p style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -73,10 +72,10 @@ const About_Us = () => {
             marginTop:"40px",
           }}>Our commitment to innovation drives us to continually explore new avenues, refine our processes, and deliver pioneering results for our clients. Join us in embracing innovation as we chart a course towards a more sustainable and efficient energy landscape.</p>
       </div>
-      <div className="mt-[50px] ">
+      <div className="mt-[50px] px-[40px] ">
         <img src={future} className="mx-auto"/>
       </div>
-      <div className="mt-[120px] mb-[120px] pl-[40px] pr-[40px] lg:pl-[990px] lg:pr-[190px]">
+      <div className="mt-[70px] xl:mt-[80px] mb-[120px] pl-[40px] pr-[40px] 2xl:pl-[990px] 2xl:pr-[190px]">
         <p style={{
             fontWeight: "400",
             fontSize: "18px",
