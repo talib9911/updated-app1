@@ -11,7 +11,7 @@ const ContentSection = () => {
   return (
     <div>
       <h2
-        className="mt-[1949px] lg:mt-[969px] pr-[20px] md:pr-[50px] pl-[80px] md:pl-[120px] mb-[20px]"
+        className="mt-[1649px] lg:mt-[969px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
         style={{
           fontWeight: "400",
           fontSize: "40px",
@@ -21,7 +21,7 @@ const ContentSection = () => {
         Areas of Expertise
       </h2>
       <p
-        className="pr-[50px] xl:pr-[950px] pl-[80px] md:pl-[120px]"
+        className="pr-[50px] 2xl:pr-[950px] pl-[60px] xl:pl-[120px]"
         style={{
           fontWeight: "400",
           fontSize: "18px",
@@ -35,19 +35,18 @@ const ContentSection = () => {
       </p>
       {/* Image map */}
       <div
-        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:gap-[20px] gap-[125px] items-center justify-items-center mx-auto justify-center md:pr-[45px] md:pl-[77px] lg:pr-[10px] lg:pl-[50px] mt-[40px]"
+        className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px]  lg:pr-[10px] xl:pl-[120px] mt-[40px]"
         // style={{ padding: "0px 50px 0px 120px" }}
       >
         {images.map((img, index) => (
-          <img key={index} src={img} className="md:w-[210px] lg:w-[310px]" />
+          <img key={index} src={img} className="w-[250px] md:w-[210px] lg:w-[310px]" />
         ))}
       </div>
       <p
-        className="pl-[85px] pr-[50px] 2xl:pl-[820px] 2xl:pr-[280px]"
+        className="pl-[60px] pr-[45px] 2xl:pl-[820px] 2xl:pr-[280px] mt-[56px] xl:mt-[120px]"
         style={{
           fontWeight: "400",
           fontSize: "18px",
-          marginTop: "120px",
           lineHeight: "25px",
           color: "#424649",
         }}
@@ -59,7 +58,7 @@ const ContentSection = () => {
         tirelessly to deliver cutting-edge results. We are committed to shaping
         a more sustainable and efficient energy future.
       </p>
-      <div className="bg-[#f4f4f4] relative mt-[200px] flex flex-col lg:flex-row px-[50px] md:px-[130px] items-center">
+      <div className="bg-[#f4f4f4] relative mt-[55px] md:mt-[200px] flex flex-col lg:flex-row px-[50px] md:px-[130px] items-center">
         {/* Image Section */}
         <div className="flex justify-center lg:justify-start lg:w-1/2">
           <img
@@ -67,10 +66,9 @@ const ContentSection = () => {
             className="relative top-[30px]  md:top-[-89px] max-w-full"
           />
         </div>
-
         {/* Text Section */}
-        <div className="lg:w-1/2 pt-[40px] pb-[100px] md:pb-[290px] pr-0 lg:pr-[120px]">
-          <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
+        <div className="lg:w-1/2 pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl:pt-[40px] pb-[50px] xl:pb-[100px] ml-0 ml-[-65px] lg:ml-0 xl:pl-0 pr-0 xl:pr-[120px]">
+          <h2 className="py-[20px] text-[40px] font-normal text-[#212529] ">
             Deep knowledge in the field
           </h2>
           <p className="text-[18px] leading-[25px] text-[#424649]">
@@ -90,7 +88,7 @@ const ContentSection = () => {
           </button>
         </div>
       </div>
-      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[60px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
+      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[50px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
         <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
           Get in touch with us
         </h2>
