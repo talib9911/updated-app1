@@ -35,7 +35,7 @@ const ContentSection = () => {
       </p>
       {/* Image map */}
       <div
-        className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px]  lg:pr-[10px] xl:pl-[120px] mt-[40px]"
+        className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px]  lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto"
         // style={{ padding: "0px 50px 0px 120px" }}
       >
         {images.map((img, index) => (
@@ -67,7 +67,7 @@ const ContentSection = () => {
           />
         </div>
         {/* Text Section */}
-        <div className="lg:w-1/2 pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl:pt-[40px] pb-[50px] xl:pb-[100px] ml-0 ml-[-65px] lg:ml-0 xl:pl-0 pr-0 xl:pr-[120px]">
+        <div className="lg:w-1/2 pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl:pt-[40px] pb-[50px] xl:pb-[100px] ml-0 lg:ml-0 xl:pl-0 pr-0 xl:pr-[120px]">
           <h2 className="py-[20px] text-[40px] font-normal text-[#212529] ">
             Deep knowledge in the field
           </h2>
