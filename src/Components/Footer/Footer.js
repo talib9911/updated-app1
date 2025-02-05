@@ -5,11 +5,11 @@ const Footer = () => {
   return (
       <div className="flex flex-col gap-[95px] px-[160px] pt-[90px] pb-[50px]  w-full bg-[#212529]">
        <div className="flex flex-wrap justify-between"><span className="grid gap-[60px] md:gap-[140px] md:grid-cols-2 lg:grid-cols-3"><div> <ul>
-            <li style={{fontWeight:"300",fontSize:"21px",color:"white"}}>Pages</li>
-            <li style={{fontWeight:"200",fontSize:"18px",color:"white", marginTop:"4px"}}>Services</li>
-            <li style={{fontWeight:"200",fontSize:"18px",color:"white", marginTop:"4px"}}>About us</li>
-            <li style={{fontWeight:"200",fontSize:"18px",color:"white", marginTop:"4px"}}>Portfolio</li>
-            <li style={{fontWeight:"200",fontSize:"18px",color:"white", marginTop:"4px"}}>Contact us</li>
+       <li className="text-white" style={{fontWeight:"300",fontSize:"21px"}}>Pages</li>
+       <Link to="/services" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}><li className="text-white hover:text-gray-500" style={{fontWeight:"200",fontSize:"18px", marginTop:"4px"}}>Services</li></Link>
+       <Link to="/about_us" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}><li className="text-white hover:text-gray-500" style={{fontWeight:"200",fontSize:"18px", marginTop:"4px"}}>About us</li></Link>
+       <Link to="/portfolio" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}><li className="text-white hover:text-gray-500" style={{fontWeight:"200",fontSize:"18px", marginTop:"4px"}}>Portfolio</li></Link>
+       <Link to="/contact" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}><li className="text-white hover:text-gray-500" style={{fontWeight:"200",fontSize:"18px", marginTop:"4px"}}>Contact us</li></Link>
         </ul>
         </div>
         <div> <ul>

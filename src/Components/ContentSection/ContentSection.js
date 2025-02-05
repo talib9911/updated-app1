@@ -5,6 +5,7 @@ import img3 from "../../Assets/Images/Frame 15.svg";
 import img4 from "../../Assets/Images/Frame 16.svg";
 import building from "../../Assets/Images/image 3.svg";
 import rightarrow from "../../Assets/Images/right.svg";
+import { Link } from "react-router-dom";
 const ContentSection = () => {
   const images = [img1, img2, img3, img4];
   return (
@@ -101,10 +102,10 @@ const ContentSection = () => {
           your specific needs and goals.
         </p>
         {/* Button */}
-        <button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
+        <Link to="/contact" onClick={()=>window.scrollTo({top:0})}><button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
         Contact us
           <img src={rightarrow} alt="Arrow" />
-        </button>
+        </button></Link>
       </div>
     </div>
   );

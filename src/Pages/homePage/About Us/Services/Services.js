@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import fan from "../../../../Assets/Images/image 21.svg"
 import dArrow from "../../../../Assets/Images/down.svg"
 import rightarrow from "../../../../Assets/Images/right.svg";
@@ -88,10 +89,10 @@ Discover our comprehensive range of services tailored to meet your energy effici
               Explore our portfolio of remarkable projects where innovation and sustainability converge. Discover how we've transformed energy landscapes and elevated standards in the industry.
               </p>
               {/* Button */}
-              <button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
+              <Link to="/portfolio" className=" hover:text-gray-500" onClick={()=>window.scrollTo({top:0})}><button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
               View our Portfolio
                 <img src={rightarrow}  />
-              </button>
+              </button></Link>
             </div>
     </div>
   );

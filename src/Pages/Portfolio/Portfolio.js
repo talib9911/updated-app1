@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import car from "../../Assets/Images/car.svg";
 import icon1 from  "../../Assets/Images/Group 3.svg"
@@ -188,10 +189,10 @@ const Portfolio = () => {
           your specific needs and goals.
         </p>
         {/* Button */}
-        <button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
+        <Link to="/contact" onClick={()=>window.scrollTo({top:0})}><button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
         Contact us
           <img src={rightarrow} alt="Arrow" />
-        </button>
+        </button></Link>
       </div>
     </div>
   );
