@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../Assets/Images/Frame 11.svg";
+import img1 from "../../Assets/Images/Frame 11 (1).svg";
 import img2 from "../../Assets/Images/Frame 14.svg";
 import img3 from "../../Assets/Images/Frame 15.svg";
 import img4 from "../../Assets/Images/Frame 16.svg";
@@ -8,6 +8,7 @@ import rightarrow from "../../Assets/Images/right.svg";
 import { Link } from "react-router-dom";
 const ContentSection = () => {
   const images = [img1, img2, img3, img4];
+  const imgLabels=['Energy Efficiency','LED Lighting','Photovoltaic Energy','Electric Mobility'];
   return (
     <div>
       <h2
@@ -35,11 +36,15 @@ const ContentSection = () => {
       </p>
       {/* Image map */}
       <div
-        className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px]  lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto"
-        // style={{ padding: "0px 50px 0px 120px" }}
+        className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px]  lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto "
       >
         {images.map((img, index) => (
-          <img key={index} src={img} className="w-[250px] md:w-[210px] lg:w-[310px]" />
+          <div key={index} className="relative">
+          <img  src={img} className="w-[250px] md:w-[210px] lg:w-[310px]" />
+          <span className="absolute bottom-5 left-6 font-[300] text-[18px] text-white">
+            {imgLabels[index]}
+          </span>
+          </div>
         ))}
       </div>
       <p
