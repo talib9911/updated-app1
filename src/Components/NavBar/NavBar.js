@@ -54,7 +54,7 @@ const NavBar = () => {
                 borderRadius: "40px",
                 opacity: "32px",
               }}
-              className={`${buttonbackColor} text-white`}
+              className={`${buttonbackColor} text-white hover:bg-black`}
             >
               Contect us
             </button></Link>
