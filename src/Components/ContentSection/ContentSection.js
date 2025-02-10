@@ -36,17 +36,29 @@ const ContentSection = () => {
       </p>
       {/* Image map */}
       <div
-        className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px]  lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto "
-      >
-        {images.map((img, index) => (
-          <div key={index} className="relative">
-          <img  src={img} className="w-[250px] md:w-[210px] lg:w-[310px]" />
-          <span className="absolute bottom-5 left-6 font-[300] text-[18px] text-white">
-            {imgLabels[index]}
-          </span>
-          </div>
-        ))}
-      </div>
+  className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px] lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto relative"
+>
+  {images.map((img, index) => (
+    <div key={index} className="relative flex-shrink-0">
+      <img src={img} className="w-[330px] md:w-[210px] lg:w-[310px]" />
+      <span className="absolute bottom-5 left-6 font-[300] text-[18px] text-white">
+        {imgLabels[index]}<div
+  className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px] lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto relative"
+>
+  {images.map((img, index) => (
+    <div key={index} className="relative flex-shrink-0">
+      <img src={img} className="w-[550px] md:w-[210px] lg:w-[310px]" />
+      <span className="absolute bottom-5 left-6 font-[300] text-[18px] text-white">
+        {imgLabels[index]}
+      </span>
+    </div>
+  ))}
+</div>
+      </span>
+    </div>
+  ))}
+</div>
+
       <p
         className="pl-[60px] pr-[45px] 2xl:pl-[820px] 2xl:pr-[280px] mt-[56px] xl:mt-[120px]"
         style={{
