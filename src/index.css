@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
+body,html{
     font-family: "Inter Tight";
     overflow-x: hidden;
 }

@@ -23,7 +23,7 @@ const Services = () => {
           style={{
             fontWeight: "400",
             fontSize: "64px",
-            paddingTop: "500px",
+            paddingTop: "150px",
           }}
         >
           Services

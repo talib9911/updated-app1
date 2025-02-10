@@ -7,7 +7,7 @@ const Portfolio2 = () => {
   return (
     <>
       <div className="  px-[30px]  sm:px-[100px] bg-[rgba(244,244,244,1)]  flex flex-col  gap-[300px] mt-[-140px] ">
-        <div className="pl-[30px] mb-[60px] mt-[370px]">
+        <div className="pl-[30px] mb-[60px] mt-[490px]">
           <p className="mt-[48px] max-w-[535px] text-[18px] font-[400] text-[#424649]">
             PORTFOLIO
           </p>

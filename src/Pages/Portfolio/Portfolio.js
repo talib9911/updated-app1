@@ -63,12 +63,11 @@ const Portfolio = () => {
     <div className="w-[100%] " style={{ zIndex: "10", marginTop: "-140px" }}>
       <div className="pt-[400px] bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${car})` }}>
         <h1
-          className="text-[#212529]"
+          className="text-[#212529] pl-[60px] lg:pl-[120px] pr-[590px]"
           style={{
             fontWeight: "400",
             fontSize: "64px",
-            paddingTop: "500px",
-            padding: "0px 590px 0px 120px",
+            paddingTop: "150px",
             color:"white",
           }}
         >
@@ -84,12 +83,12 @@ const Portfolio = () => {
             paddingBottom: "50px",
             lineHeight:"25px",
           }}
-          className="pl-[120px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
+          className="pl-[60px] xl:pl-[120px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
         >
          Explore our portfolio of remarkable projects where innovation and sustainability converge.
         </p>
       </div>
-      <div className="bg-white pl-[120px] lg:pr-[590px]">
+      <div className="bg-white pl-[60px] lg:pl-[120px] lg:pr-[590px]">
         <h3
           style={{
             fontWeight: "400",
@@ -98,7 +97,7 @@ const Portfolio = () => {
           }}
         >
                   <h1
-          className="text-[#212529] xl:pl-[8px] pr-[50px] xl:pr-[90px]"
+          className="text-[#212529] pl-[8px] pr-[40px] md:pr-[0px] xl:pr-[90px]"
           style={{
             fontWeight: "400",
             fontSize: "40px",
@@ -118,7 +117,7 @@ const Portfolio = () => {
             paddingBottom: "10px",
             lineHeight:"25px",
           }}
-          className=" pr-11 xl:pr-[380px] lg:pl-[8px]"
+          className=" pr-11 2xl:pr-[380px] lg:pl-[8px]"
         >
         In a highly competitive industry, what distinguishes a company is not just its offerings but its unwavering commitment to excellence and innovation. At Oakland C.E., we understand that to rise above the competition, we must constantly strive for distinction in every aspect of our business. Our journey in the energy sector has been defined by innovation and expertise.
         </p>

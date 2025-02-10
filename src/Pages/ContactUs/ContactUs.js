@@ -6,7 +6,7 @@ const contact_us = () => {
     <>
       <div className="  px-[30px]  sm:px-[100px] bg-[rgba(244,244,244,1)]  flex flex-col  gap-[300px] mt-[-140px] ">
         <div className="pl-[30px] mb-[60px]">
-          <h1 className="text-[64px] mt-[470px]" style={{
+          <h1 className="text-[64px] mt-[570px]" style={{
             fontWeight: "400",
             fontSize: "64px",
             color: "#212529",

@@ -12,7 +12,7 @@ const ContentSection = () => {
   return (
     <div>
       <h2
-        className="mt-[1649px] lg:mt-[969px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
+        className="mt-[1649px] lg:mt-[969px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px] "
         style={{
           fontWeight: "400",
           fontSize: "40px",
@@ -40,20 +40,9 @@ const ContentSection = () => {
 >
   {images.map((img, index) => (
     <div key={index} className="relative flex-shrink-0">
-      <img src={img} className="w-[330px] md:w-[210px] lg:w-[310px]" />
-      <span className="absolute bottom-5 left-6 font-[300] text-[18px] text-white">
-        {imgLabels[index]}<div
-  className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px] lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto relative"
->
-  {images.map((img, index) => (
-    <div key={index} className="relative flex-shrink-0">
-      <img src={img} className="w-[550px] md:w-[210px] lg:w-[310px]" />
-      <span className="absolute bottom-5 left-6 font-[300] text-[18px] text-white">
+      <img src={img} className="w-[350px] md:w-[210px] lg:w-[310px]" />
+      <span className="absolute bottom-[30px] left-6 font-[300] text-[18px] text-white">
         {imgLabels[index]}
-      </span>
-    </div>
-  ))}
-</div>
       </span>
     </div>
   ))}
@@ -97,7 +86,6 @@ const ContentSection = () => {
             domains enables us to provide innovative, tailored solutions that
             not only meet but exceed the expectations of our clients.
           </p>
-
           {/* Button */}
           <button className="flex items-center gap-[6px] text-[18px] font-normal text-[#212529] mt-[35px]">
             Learn more
@@ -105,7 +93,7 @@ const ContentSection = () => {
           </button>
         </div>
       </div>
-      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[50px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
+      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[50px] xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
         <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
           Get in touch with us
         </h2>
