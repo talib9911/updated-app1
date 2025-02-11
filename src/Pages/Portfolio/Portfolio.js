@@ -51,7 +51,6 @@ const Portfolio = () => {
           image: img6,
         },
       ];
-      
       const categories = ["All", "LED Lighting", "Energy Efficiency", "Electric Mobility"];
       const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -63,11 +62,10 @@ const Portfolio = () => {
     <div className="w-[100%] " style={{ zIndex: "10", marginTop: "-140px" }}>
       <div className="pt-[400px] bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${car})` }}>
         <h1
-          className="text-[#212529] pl-[60px] lg:pl-[120px] pr-[590px]"
+          className="text-[#212529] pl-[45px] sm:pl-[60px] lg:pl-[120px] pr-[590px] mt-[100px]"
           style={{
             fontWeight: "400",
             fontSize: "64px",
-            paddingTop: "150px",
             color:"white",
           }}
         >
@@ -83,12 +81,12 @@ const Portfolio = () => {
             paddingBottom: "50px",
             lineHeight:"25px",
           }}
-          className="pl-[60px] xl:pl-[120px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
+          className="pl-[45px] sm:pl-[60px] xl:pl-[120px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
         >
          Explore our portfolio of remarkable projects where innovation and sustainability converge.
         </p>
       </div>
-      <div className="bg-white pl-[60px] lg:pl-[120px] lg:pr-[590px]">
+      <div className="bg-white pl-[45px] sm:pl-[60px] lg:pl-[120px] xl:pr-[590px]">
         <h3
           style={{
             fontWeight: "400",
@@ -97,10 +95,9 @@ const Portfolio = () => {
           }}
         >
                   <h1
-          className="text-[#212529] pl-[8px] pr-[40px] md:pr-[0px] xl:pr-[90px]"
+          className="text-[#212529] pl-[8px] pr-[40px] md:pr-[0px] xl:pr-[90px] text-[37px] sm:text-[40px]"
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             paddingTop: "50px",
             color:"#212529",
           }}
@@ -123,7 +120,7 @@ const Portfolio = () => {
         </p>
         </h3>
       </div>
-      <div className="grid gap-[80px] md:grid-cols-2 xl:grid-cols-3 items-center justify-center 2xl:gap-[280px] md:pl-[120px]">
+      <div className="grid gap-[80px] md:grid-cols-2 xl:grid-cols-3  2xl:gap-[0px] items-center justify-center md:pl-[120px] xl:pr-[470px]">
         <div className="flex gap-6">
             <img src={icon1}/>
             <h4     style={{
@@ -149,13 +146,13 @@ const Portfolio = () => {
           }}>Quality</h4>
         </div>
       </div>  
-      <div className="flex flex-col pl-[40px] lg:pl-[120px] py-[50px] bg-[#F4F4F4] mt-[90px]">
+      <div className="flex flex-col pl-[10px] sm:pl-[40px] lg:pl-[50px] xl:pl-[120px] xl:pr-[120px] py-[50px] bg-[#F4F4F4] mt-[90px]">
       {/* Filter Buttons */}
-      <div className="flex gap-4 lg:gap-7 mb-6 pr-[100px] 2xl:pr-[800px] ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-7 pl-[65px] sm:pl-[0px] mb-6 pr-[100px] 2xl:pr-[800px] ">
         {categories.map((category, index) => (
           <button
             key={index}
-            className={`min-w-[75px] px-[26px] py-[5px] lg:px-[40px] flex items-center justify-center justify-items-center lg:py-[16px] rounded-full text-[10px] md:text-[18px] font-normal text-nowrap ${
+            className={`min-w-[75px] px-[6px] py-[5px] lg:px-[40px] flex items-center justify-center justify-items-center lg:py-[16px] rounded-full text-[10px] md:text-[18px] font-normal text-nowrap ${
               selectedCategory === category ? "bg-[#A6A6AB] text-white" : "bg-white"
             }`}
             onClick={() => setSelectedCategory(category)}
@@ -166,17 +163,17 @@ const Portfolio = () => {
       </div>
 
       {/* image Grid */}
-      <div className="grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-[10px] ">
+      <div className="grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-[0px] ">
         {filteredItems.map((item) => (
           <div key={item.id} className="rounded-lg p-4">
-            <img src={item.image} alt={item.title} className="w-[350px] h- object-cover rounded-lg" />
+            <img src={item.image} className="w-[830px] h- object-cover rounded-lg" />
             <h3 className="text-lg font-semibold mt-3">{item.title}</h3>
-            <p className="text-gray-500">{item.category.join(", ")}</p>
+            <p className="text-gray-500">{item.category.join(",")}</p>
           </div>
         ))}
       </div>
     </div>
-    <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[60px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
+    <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[45px] sm:pl-[60px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
         <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
           Get in touch with us
         </h2>

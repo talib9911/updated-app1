@@ -26,7 +26,7 @@ const Footer = () => {
         </ul>
         </div>
         </div>
-        <div className="mt-[50px] 2xl:mt-0 ml-[70px] md:ml-[0px]">
+        <div className="mt-[50px] 2xl:mt-0 sm:ml-[70px] md:ml-[0px]">
             <img src={fLogo}/>
         </div>
         </div>

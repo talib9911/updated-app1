@@ -5,8 +5,8 @@ const contact_us = () => {
   return (
     <>
       <div className="  px-[30px]  sm:px-[100px] bg-[rgba(244,244,244,1)]  flex flex-col  gap-[300px] mt-[-140px] ">
-        <div className="pl-[30px] mb-[60px]">
-          <h1 className="text-[64px] mt-[570px]" style={{
+        <div className="sm:pl-[30px] mb-[60px]">
+          <h1 className="text-[64px] mt-[520px]" style={{
             fontWeight: "400",
             fontSize: "64px",
             color: "#212529",
@@ -22,7 +22,7 @@ const contact_us = () => {
       </div>
  
       <div className=" px-[30px]  sm:px-[100px] mt-[100px] lg:flex">
-        <div className="w-100% pl-[40px] lg:w-[40%] lg:pl-[42px]">
+        <div className="w-100% sm:pl-[40px] lg:w-[40%] lg:pl-[42px]">
           <div>
             <h2 className="font-[400] text-[40px] leading-[48.4px] max-w-[148px] text-[#212529]">
               Location

@@ -1,16 +1,16 @@
 import React from "react";
-import meeting from "../../../Assets/Images/image 2.svg";
-import future from "../../../Assets/Images/Frame 20.svg";
+import meeting from "../../Assets/Images/image 2.svg";
+import future from "../../Assets/Images/Frame 20.svg";
 const About_Us = () => {
   return (
     <div className="w-[100%] " style={{ zIndex: "10", marginTop: "-120px" }}>
       <div className="bg-[#f4f4f4] pt-[400px]">
         <h1
-          className="text-[#212529] pl-[65px] lg:pl-[120px] xl:pr-[590px]"
+          className="text-[#212529] pl-[40px] sm:pl-[65px] lg:pl-[120px] xl:pr-[590px] mt-[100px]"
           style={{
             fontWeight: "400",
             fontSize: "64px",
-            paddingTop: "150px",
+            
           }}
         >
           About us
@@ -24,13 +24,13 @@ const About_Us = () => {
             marginBottom: "70px",
             paddingBottom: "50px",
           }}
-          className="pl-[65px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
+          className="pl-[45px] sm:pl-[65px] pr-11 2xl:pr-[1180px] lg:pl-[120px]"
         >
           Learn more about Oakland C.E. and our commitment to excellence,
           innovation, and sustainability.
         </p>
       </div>
-      <div className="bg-white pl-[65px] lg:pl-[120px] xl:pr-[590px]">
+      <div className="bg-white pl-[45px] sm:pl-[65px] lg:pl-[120px] xl:pr-[590px]">
         <h3
           style={{
             fontWeight: "400",
@@ -42,20 +42,18 @@ const About_Us = () => {
           <br /> Guiding our journey from the start.
         </h3>
       </div>
-      <div className="flex items-center flex-col lg:flex-row justify-end px-[40px] mt-[-390px] lg:mt-0 lg:pl-[0px] lg:pr-[60px]">
+      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] lg:mt-0 lg:pl-[0px] lg:pr-[60px]">
         <p
           style={{
             fontWeight: "400",
             fontSize: "14px",
             color: "#A6A6AB",
-            marginTop: "470px",
           }}
         >
-          <div>Executive Board members
-            <br />
+          <div className="ml-[40px] sm:ml-[180px] xl:ml-[0px] lg:pr-[19px] w-[190px] text-right mt-[10px] lg:mt-[470px] xl:mt-[540px]">Executive Board members
             Oakland. 2023</div>
         </p>
-        <img src={meeting} className="w-[700px]" />
+        <img src={meeting} className="w-[700px] sm:w-[5400px] xl:w-[800px]" />
       </div>
       <div className="mt-[70px] xl:mt-[90px] pl-[40px] pr-[40px] 2xl:pl-[120px] 2xl:pr-[990px]">
         <p style={{

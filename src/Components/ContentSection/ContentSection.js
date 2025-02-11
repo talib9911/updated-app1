@@ -12,7 +12,7 @@ const ContentSection = () => {
   return (
     <div>
       <h2
-        className="mt-[1649px] lg:mt-[969px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px] "
+        className="mt-[1699px] lg:mt-[1269px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
         style={{
           fontWeight: "400",
           fontSize: "40px",
@@ -40,7 +40,7 @@ const ContentSection = () => {
 >
   {images.map((img, index) => (
     <div key={index} className="relative flex-shrink-0">
-      <img src={img} className="w-[350px] md:w-[210px] lg:w-[310px]" />
+      <img src={img} className="w-[378px] md:w-[210px] lg:w-[310px]" />
       <span className="absolute bottom-[30px] left-6 font-[300] text-[18px] text-white">
         {imgLabels[index]}
       </span>
@@ -73,7 +73,7 @@ const ContentSection = () => {
           />
         </div>
         {/* Text Section */}
-        <div className="lg:w-1/2 pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl:pt-[40px] pb-[50px] xl:pb-[100px] ml-0 lg:ml-0 xl:pl-0 pr-0 xl:pr-[120px]">
+        <div className="lg:w-1/2 pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl:pt-[40px] pb-[50px] xl:pb-[100px] ml-0 lg:ml-0 xl:pl-0 pr-0 xl:pr-[28px]">
           <h2 className="py-[20px] text-[40px] font-normal text-[#212529] ">
             Deep knowledge in the field
           </h2>

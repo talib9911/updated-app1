@@ -12,12 +12,10 @@ const Portfolio2 = () => {
             PORTFOLIO
           </p>
           <h1
-            className="text-[64px] "
+            className="text-[50px] sm:text-[64px] leading-[45px] md:leading-[77px]"
             style={{
               fontWeight: "400",
-              fontSize: "64px",
               color: "#212529",
-              lineHeight: "77px",
             }}
           >
             Delloite Building, London
@@ -26,7 +24,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[90px]">
         <p
-          className="pr-[50px] xl:pr-[240px] pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[240px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -44,7 +42,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[25px]">
         <p
-          className="pr-[50px] xl:pr-[240px] pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[240px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -64,7 +62,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[25px]">
         <p
-          className="pr-[50px] xl:pr-[240px] pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[240px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -90,7 +88,7 @@ const Portfolio2 = () => {
           <img src={b2} />
         </div>
       </div>
-      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[60px] 2xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
+      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[45px] sm:pl-[60px] 2xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
         <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
           Get in touch with us
         </h2>

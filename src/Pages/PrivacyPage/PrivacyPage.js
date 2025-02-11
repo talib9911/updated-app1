@@ -5,12 +5,10 @@ const PrivacyPage = () => {
       <div className="  px-[30px]  sm:px-[100px] bg-[rgba(244,244,244,1)]  flex flex-col  gap-[300px] mt-[-140px] ">
         <div className="pl-[30px] mb-[60px]">
           <h1
-            className="text-[64px] mt-[470px]"
+            className="text-[40px] leading-[40px] sm:leading-[76px] sm:text-[64px] mt-[470px]"
             style={{
               fontWeight: "400",
-              fontSize: "64px",
               color: "#212529",
-              lineHeight: "77px",
             }}
           >
             Privacy and Cookies Policy
@@ -24,17 +22,16 @@ const PrivacyPage = () => {
       </div>
       <div className="mt-[90px]">
         <h2
-          className=" pr-[20px] md:pr-[50px] pl-[80px] md:pl-[120px] mb-[20px]"
+          className=" pr-[20px] md:pr-[50px] pl-[40px] sm:pl-[80px] md:pl-[120px] mb-[20px] text-[30px] sm:text-[40px]"
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             color: "rgba(33, 37, 41, 1)",
           }}
         >
           1. Information we collect
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -53,17 +50,16 @@ const PrivacyPage = () => {
       </div>
       <div className="mt-[70px]">
         <h2
-          className=" pr-[20px] md:pr-[50px] pl-[80px] md:pl-[120px] mb-[20px]"
+          className=" pr-[20px] md:pr-[50px] pl-[40px] sm:pl-[80px] md:pl-[120px] mb-[20px] text-[30px] sm:text-[40px]"
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             color: "rgba(33, 37, 41, 1)",
           }}
         >
           2. How we use your information
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[710px] pl-[50px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -82,17 +78,16 @@ const PrivacyPage = () => {
       </div>
       <div className="mt-[70px]">
         <h2
-          className=" pr-[20px] md:pr-[50px] pl-[80px] md:pl-[120px] mb-[20px]"
+          className=" pr-[20px] md:pr-[50px] pl-[40px] sm:pl-[80px] md:pl-[120px] mb-[20px] text-[30px] sm:text-[40px]"
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             color: "rgba(33, 37, 41, 1)",
           }}
         >
           3. Communication
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -108,17 +103,16 @@ const PrivacyPage = () => {
       </div>
       <div className="mt-[70px]">
         <h2
-          className=" pr-[20px] md:pr-[50px] pl-[80px] md:pl-[120px] mb-[20px]"
+          className=" pr-[20px] md:pr-[50px] pl-[40px] sm:pl-[80px] md:pl-[120px] mb-[20px] text-[30px] sm:text-[40px]"
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             color: "rgba(33, 37, 41, 1)",
           }}
         >
           4. Cookies and Tracking Technologies
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -137,17 +131,16 @@ const PrivacyPage = () => {
       </div>
       <div className="mt-[70px] mb-[120px]">
         <h2
-          className=" pr-[20px] md:pr-[50px] pl-[80px] md:pl-[120px] mb-[20px]"
+          className=" pr-[20px] md:pr-[50px] pl-[40px] sm:pl-[80px] md:pl-[120px] mb-[20px] text-[34px] sm:text-[40px]"
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             color: "rgba(33, 37, 41, 1)",
           }}
         >
           5. Security
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
