@@ -54,7 +54,7 @@ const About_Us = () => {
               </p>
               <img src={meeting} className="w-[700px] sm:w-[5400px] xl:w-[800px]" />
             </div>
-      <div className="mt-[70px] xl:mt-[90px] pl-[40px] pr-[40px] 2xl:pl-[120px] 2xl:pr-[990px]">
+      <div className="mt-[70px] xl:mt-[90px] pl-[40px] pr-[40px] 2xl:pl-[120px] 2xl:pr-[690px]">
         <p style={{
             fontWeight: "400",
             fontSize: "18px",

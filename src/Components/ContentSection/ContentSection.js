@@ -73,7 +73,7 @@ const ContentSection = () => {
           />
         </div>
         {/* Text Section */}
-        <div className="lg:w-1/2 pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl:pt-[40px] pb-[50px] xl:pb-[100px] ml-0 lg:ml-0 xl:pl-0 pr-0 xl:pr-[28px]">
+        <div className="lg:w-full pt-[30px] md:pt-0 md:mt-0 lg:mt-[20px] xl-mt-[0px] 2xl:mt-[-120px] pb-[50px] xl:pb-[100px] ml-0 lg:ml-10 xl:pl-0 pr-0 xl:pr-[0px]">
           <h2 className="py-[20px] text-[40px] font-normal text-[#212529] ">
             Deep knowledge in the field
           </h2>

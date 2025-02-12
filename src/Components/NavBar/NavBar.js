@@ -12,7 +12,19 @@ const NavBar = () => {
   const oaklandTextColor = location.pathname === "/about_us" || location.pathname==="/contact" || location.pathname==="/privacy" || location.pathname==="/portfolio2" ? "text-black" : "text-white";
   const listTextColor = location.pathname === "/about_us" || location.pathname==="/contact" || location.pathname==="/privacy" || location.pathname==="/portfolio2" ? "text-black" : "text-white";
   const buttonTextColor = location.pathname === "/about_us" ? "text-white" : "text-black";
-  const buttonbackColor = location.pathname === "/about_us" || location.pathname==="/contact" || location.pathname==="/privacy" || location.pathname==="/portfolio2" ? "bg-[#212529]" : "bg-[#8FA0AA]";
+  let buttonbackColor = "";
+  if (
+    location.pathname === "/about_us" ||
+    location.pathname === "/contact" ||
+    location.pathname === "/privacy" ||
+    location.pathname === "/portfolio2"
+  ) {
+    buttonbackColor = "bg-[#212529]";
+  } else if (location.pathname === "/" || location.pathname === "") {
+    buttonbackColor = "bg-[#8e9fa9]";
+  } else {
+    buttonbackColor = "bg-[#646669]";
+  }
   const logosrc = location.pathname === "/about_us" ? logo2 : logo;
   const handleHamburger = () => {
     setIsOpen((prevState) => !prevState);
