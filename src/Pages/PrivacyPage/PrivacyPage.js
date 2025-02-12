@@ -31,7 +31,7 @@ const PrivacyPage = () => {
           1. Information we collect
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[400px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -59,7 +59,7 @@ const PrivacyPage = () => {
           2. How we use your information
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[50px] sm:pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[400px] pl-[50px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -87,7 +87,7 @@ const PrivacyPage = () => {
           3. Communication
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[400px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -112,7 +112,7 @@ const PrivacyPage = () => {
           4. Cookies and Tracking Technologies
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[400px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -140,7 +140,7 @@ const PrivacyPage = () => {
           5. Security
         </h2>
         <p
-          className="pr-[50px] xl:pr-[710px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
+          className="pr-[50px] xl:pr-[400px] pl-[40px] sm:pl-[80px] md:pl-[120px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",

@@ -42,16 +42,21 @@ const About_Us = () => {
         </h3>
       </div>
       <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] xl:mt-[80px] lg:mt-0 lg:pl-[0px] xl:pr-[160px]">
-              <p
-                style={{
-                  fontWeight: "400",
-                  fontSize: "14px",
-                  color: "#A6A6AB",
-                }}
-              >
-                <div className="right-0 ml-[200px] sm:ml-[350px] md:ml-[470px] xl:ml-[0px] lg:pr-[19px] w-[190px] text-right mt-[10px] lg:mt-[540px]">Executive Board members
-                  Oakland. 2023</div>
-              </p>
+      <div className="flex justify-end w-full mt-[10px] lg:mt-[540px] lg:pr-[19px]">
+  <p
+    className="w-[190px] text-right"
+    style={{
+      fontWeight: "400",
+      fontSize: "14px",
+      color: "#A6A6AB",
+    }}
+  >
+    Executive Board members  
+    <br />
+    Oakland. 2023
+  </p>
+</div>
+
               <img src={meeting} className="w-[700px] sm:w-[5400px] xl:w-[800px]" />
             </div>
       <div className="mt-[70px] xl:mt-[90px] pl-[40px] pr-[40px] 2xl:pl-[120px] 2xl:pr-[690px]">
