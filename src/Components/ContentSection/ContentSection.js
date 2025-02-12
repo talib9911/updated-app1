@@ -93,7 +93,7 @@ const ContentSection = () => {
           </button>
         </div>
       </div>
-      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[50px] xl:pl-[120px] pr-[12px] 2xl:pr-[999px]">
+      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[50px] xl:pl-[120px] pr-[25px] 2xl:pr-[999px]">
         <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
           Get in touch with us
         </h2>
