@@ -30,7 +30,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[90px]">
         <p
-          className="pr-[50px] xl:pr-[130px] pl-[47px] sm:pl-[89px] lg:pl-[620px] "
+          className="pr-[50px] xl:pr-[112px] pl-[47px] sm:pl-[89px] lg:pl-[620px] "
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -48,7 +48,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[25px]">
         <p
-          className="pr-[50px] xl:pr-[130px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[112px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -68,7 +68,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[25px]">
         <p
-          className="pr-[50px] xl:pr-[130px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[112px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
