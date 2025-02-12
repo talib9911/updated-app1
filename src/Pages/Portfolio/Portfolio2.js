@@ -86,15 +86,15 @@ const Portfolio2 = () => {
           occupancy and natural lighting conditions.
         </p>
       </div>
-      <div className="flex xl:flex-col">
-        <div className="mt-[30px] xl:mt-[70px] pl-[40px]  xl:pl-[130px]">
-          <img src={b1} className="w-[1280px]" />
+      <div className="flex align-items flex-col">
+        <div className="mt-[30px] xl:mt-[70px] pl-[48px] pr-[40px] xl:pl-[130px]">
+          <img src={b1} className="min-w-[50px] sm:w-[1280px]" />
         </div>
-        <div className="mt-[30px] pl-[20px] pr-[40px] xl:pl-[900px]">
-          <img src={b2} />
+        <div className="mt-[30px] pl-[48px] lg:pl-[20px] pr-[40px] xl:pl-[900px]">
+          <img src={b2} className="min-w-[380px] sm:w-[850px]"/>
         </div>
       </div>
-      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[45px] sm:pl-[60px] 2xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
+      <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[54px] sm:pl-[60px] 2xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
         <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
           Get in touch with us
         </h2>
