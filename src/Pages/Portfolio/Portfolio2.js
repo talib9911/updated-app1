@@ -2,6 +2,8 @@ import React from "react";
 import b1 from "../../Assets/Images/Frame 8.svg";
 import b2 from "../../Assets/Images/Frame 9.svg";
 import rightarrow from "../../Assets/Images/right.svg";
+import lefta from "../../Assets/Images/leftVector.svg";
+import righta from "../../Assets/Images/rightVector.svg";
 
 const Portfolio2 = () => {
   return (
@@ -20,11 +22,15 @@ const Portfolio2 = () => {
           >
             Delloite Building, London
           </h1>
+          <div className="w-full flex justify-between mt-[40px]">
+            <img src={lefta}/>
+            <img src={righta}/>
+          </div>
         </div>
       </div>
       <div className="mt-[90px]">
         <p
-          className="pr-[50px] xl:pr-[240px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[130px] pl-[47px] sm:pl-[89px] lg:pl-[620px] "
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -42,7 +48,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[25px]">
         <p
-          className="pr-[50px] xl:pr-[240px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[130px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
@@ -62,7 +68,7 @@ const Portfolio2 = () => {
       </div>
       <div className="mt-[25px]">
         <p
-          className="pr-[50px] xl:pr-[240px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
+          className="pr-[50px] xl:pr-[130px] pl-[47px] sm:pl-[89px] lg:pl-[620px]"
           style={{
             fontWeight: "400",
             fontSize: "18px",
