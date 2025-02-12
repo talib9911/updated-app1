@@ -70,7 +70,7 @@ const Services = () => {
         ))}
       </div>
 
-      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] xl:mt-[80px] lg:mt-0 lg:pl-[0px] xl:pr-[160px]">
+      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[42px] sm:mt-[90px] lg:mt-[80px] lg:mt-0 lg:pl-[0px] xl:pr-[160px]">
         <div className="flex justify-end w-full mt-[10px] lg:mt-[540px] lg:pr-[19px]">
           <p
             className="w-[190px] text-right mr-[8px] lg:mr-[0px]"
