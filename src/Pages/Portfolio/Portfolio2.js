@@ -82,7 +82,7 @@ const Portfolio2 = () => {
       </div>
       <div className="flex xl:flex-col">
         <div className="mt-[30px] xl:mt-[70px] pl-[40px]  xl:pl-[130px]">
-          <img src={b1} className="w-[980px]" />
+          <img src={b1} className="w-[1280px]" />
         </div>
         <div className="mt-[30px] pl-[20px] pr-[40px] xl:pl-[900px]">
           <img src={b2} />
