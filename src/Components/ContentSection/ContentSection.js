@@ -12,7 +12,7 @@ const ContentSection = () => {
   return (
     <div>
       <h2
-        className="mt-[1599px] lg:mt-[1269px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
+        className="mt-[1539px] lg:mt-[1269px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
         style={{
           fontWeight: "400",
           fontSize: "40px",
