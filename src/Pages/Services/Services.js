@@ -42,7 +42,7 @@ const Services = () => {
 Discover our comprehensive range of services tailored to meet your energy efficiency, LED lighting, photovoltaic energy, and much more.
         </p>
       </div>
-      <div className="bg-white pl-[65px] xl:pl-[120px] pr-[44px] lg:pr-[170px]">
+      <div className="bg-white pl-[48px] xl:pl-[120px] pr-[44px] xl:pr-[170px]">
       {items.map((item, index) => (
         <div key={index}>
           <button
@@ -63,7 +63,8 @@ Discover our comprehensive range of services tailored to meet your energy effici
         </div>
       ))}
       </div>
-      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] lg:mt-0 lg:pl-[0px] lg:pr-[60px]">
+      
+      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] xl:mt-[80px] lg:mt-0 lg:pl-[0px] xl:pr-[160px]">
         <p
           style={{
             fontWeight: "400",
@@ -71,11 +72,12 @@ Discover our comprehensive range of services tailored to meet your energy effici
             color: "#A6A6AB",
           }}
         >
-          <div className="ml-[40px] sm:ml-[180px] xl:ml-[0px] lg:pr-[19px] w-[190px] text-right mt-[10px] lg:mt-[470px] xl:mt-[540px]">Executive Board members
+          <div className="right-0 ml-[200px] sm:ml-[350px] md:ml-[470px] xl:ml-[0px] lg:pr-[19px] w-[190px] text-right mt-[10px] lg:mt-[540px]">Executive Board members
             Oakland. 2023</div>
         </p>
         <img src={fan} className="w-[700px] sm:w-[5400px] xl:w-[800px]" />
       </div>
+    
       <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[40px] xl:pl-[120px] pr-[0px] 2xl:pr-[999px]">
               <h2 className="py-[20px] text-[40px] font-normal text-[#212529]">
               Proudly helping businesses

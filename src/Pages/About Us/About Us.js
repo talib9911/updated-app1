@@ -30,11 +30,10 @@ const About_Us = () => {
           innovation, and sustainability.
         </p>
       </div>
-      <div className="bg-white pl-[45px] sm:pl-[65px] lg:pl-[120px] xl:pr-[590px]">
+      <div className="bg-white pl-[45px] sm:pl-[65px] lg:pl-[120px] xl:pr-[590px] text-[36px] sm:text-[40px]">
         <h3
           style={{
             fontWeight: "400",
-            fontSize: "40px",
             color: "#424649",
           }}
         >
@@ -42,19 +41,19 @@ const About_Us = () => {
           <br /> Guiding our journey from the start.
         </h3>
       </div>
-      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] lg:mt-0 lg:pl-[0px] lg:pr-[60px]">
-        <p
-          style={{
-            fontWeight: "400",
-            fontSize: "14px",
-            color: "#A6A6AB",
-          }}
-        >
-          <div className="ml-[40px] sm:ml-[180px] xl:ml-[0px] lg:pr-[19px] w-[190px] text-right mt-[10px] lg:mt-[470px] xl:mt-[540px]">Executive Board members
-            Oakland. 2023</div>
-        </p>
-        <img src={meeting} className="w-[700px] sm:w-[5400px] xl:w-[800px]" />
-      </div>
+      <div className="flex items-center flex-col-reverse lg:flex-row justify-end px-[40px] mt-[30px] sm:mt-[90px] xl:mt-[80px] lg:mt-0 lg:pl-[0px] xl:pr-[160px]">
+              <p
+                style={{
+                  fontWeight: "400",
+                  fontSize: "14px",
+                  color: "#A6A6AB",
+                }}
+              >
+                <div className="right-0 ml-[200px] sm:ml-[350px] md:ml-[470px] xl:ml-[0px] lg:pr-[19px] w-[190px] text-right mt-[10px] lg:mt-[540px]">Executive Board members
+                  Oakland. 2023</div>
+              </p>
+              <img src={meeting} className="w-[700px] sm:w-[5400px] xl:w-[800px]" />
+            </div>
       <div className="mt-[70px] xl:mt-[90px] pl-[40px] pr-[40px] 2xl:pl-[120px] 2xl:pr-[990px]">
         <p style={{
             fontWeight: "400",

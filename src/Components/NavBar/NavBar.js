@@ -39,7 +39,7 @@ const NavBar = () => {
           >
   <li>
   <Link to="/about_us" className=" hover:text-gray-500">
-    About Us
+    About us
   </Link></li>
             <li>  <Link to="/services" className=" hover:text-gray-500">
             Services
@@ -56,7 +56,7 @@ const NavBar = () => {
               }}
               className={`${buttonbackColor} text-white hover:bg-black`}
             >
-              Contect us
+              Contact us
             </button></Link>
           </ul>
           {/* Mobile Menu Icon */}

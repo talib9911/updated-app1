@@ -12,7 +12,7 @@ const ContentSection = () => {
   return (
     <div>
       <h2
-        className="mt-[1699px] lg:mt-[1269px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
+        className="mt-[1599px] lg:mt-[1269px] pr-[20px] md:pr-[50px] pl-[60px] xl:pl-[120px] mb-[20px]"
         style={{
           fontWeight: "400",
           fontSize: "40px",
@@ -36,11 +36,11 @@ const ContentSection = () => {
       </p>
       {/* Image map */}
       <div
-  className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px] lg:pr-[10px] xl:pl-[120px] mt-[40px] overflow-x-auto relative"
+  className="flex gap-[20px] lg:gap-[95px] items-center pl-[60px] md:pr-[45px] lg:pr-[10px] xl:pl-[130px] mt-[40px] overflow-x-auto relative"
 >
   {images.map((img, index) => (
     <div key={index} className="relative flex-shrink-0">
-      <img src={img} className="w-[378px] md:w-[210px] lg:w-[310px]" />
+      <img src={img} className="w-[378px] md:w-[210px] lg:w-[330px]" />
       <span className="absolute bottom-[30px] left-6 font-[300] text-[18px] text-white">
         {imgLabels[index]}
       </span>
@@ -64,7 +64,7 @@ const ContentSection = () => {
         tirelessly to deliver cutting-edge results. We are committed to shaping
         a more sustainable and efficient energy future.
       </p>
-      <div className="bg-[#f4f4f4] relative mt-[55px] md:mt-[200px] flex flex-col lg:flex-row px-[50px] md:px-[130px] items-center">
+      <div className="bg-[#f4f4f4] relative mt-[55px] md:mt-[200px] flex flex-col lg:flex-row px-[50px] xl:px-[210px] md:px-[130px] lg:px-[80px] items-center">
         {/* Image Section */}
         <div className="flex justify-center lg:justify-start lg:w-1/2">
           <img

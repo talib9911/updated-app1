@@ -5,7 +5,7 @@ const contact_us = () => {
   return (
     <>
       <div className="  px-[30px]  sm:px-[100px] bg-[rgba(244,244,244,1)]  flex flex-col  gap-[300px] mt-[-140px] ">
-        <div className="sm:pl-[30px] mb-[60px]">
+        <div className="pl-[35px] sm:pl-[30px] mb-[60px]">
           <h1 className="text-[64px] mt-[520px]" style={{
             fontWeight: "400",
             fontSize: "64px",
@@ -22,7 +22,7 @@ const contact_us = () => {
       </div>
  
       <div className=" px-[30px]  sm:px-[100px] mt-[100px] lg:flex">
-        <div className="w-100% sm:pl-[40px] lg:w-[40%] lg:pl-[42px]">
+        <div className="w-100% pl-[50px] sm:pl-[40px] lg:w-[40%] lg:pl-[42px]">
           <div>
             <h2 className="font-[400] text-[40px] leading-[48.4px] max-w-[148px] text-[#212529]">
               Location
@@ -42,7 +42,7 @@ const contact_us = () => {
         </div>
         <div className="pl-[35px] lg:w-[60%]">
           <div>
-            <h2 className="font-[400] text-[40px] leading-[48.4px] max-w-[148px] text-[#212529]  lg:mt-[0px] mt-[40px]">
+            <h2 className="font-[400] text-[40px] pl-[18px] leading-[48.4px] max-w-[148px] text-[#212529]  lg:mt-[0px] mt-[40px]">
               Form
             </h2>
           </div>
@@ -101,9 +101,9 @@ const contact_us = () => {
           </div>
         </div>
       </div>
-<div className="px-[40px] md:px-[50px] lg:px-[135px] flex flex-col md:flex-row mt-[50px] md:mt-[100px] h-auto md:h-[500px] gap-4 mb-[120px]">
+<div className="px-[40px] md:px-[50px] lg:px-[135px]  flex flex-col md:flex-row mt-[50px] md:mt-[100px] h-auto md:h-[600px] gap-4  mb-[120px]">
   {/* Map Container */}
-  <div className="w-full md:w-[70%] h-[300px] md:h-full">
+  <div className="w-full md:w-[70%] h-[300px] md:h-full ">
     <iframe
       width="100%"
       height="100%"
@@ -115,8 +115,8 @@ const contact_us = () => {
   </div>
 
   {/* Image Container */}
-  <div className="mt-8 md:mt-0 w-full md:w-[30%] h-[300px] md:h-full">
-    <img src={wBuilding} className="w-full h-full object-cover rounded-md" alt="Building" />
+  <div className="mt-8 md:mt-0 w-full md:w-[30%] h-[590px] md:h-full ">
+    <img src={wBuilding} className="w-full  h-full object-cover rounded-md" alt="Building" />
   </div>
 </div>
 

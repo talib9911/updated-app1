@@ -22,7 +22,7 @@ const Footer = () => {
         <div> <ul>
             <li style={{fontWeight:"300",fontSize:"21px",color:"white"}}>Legal</li>
                <Link to="/privacy" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}><li className="text-white hover:text-gray-500" style={{fontWeight:"200", fontSize:"18px", marginTop:"4px"} }>Privacy and Cookies Policy</li></Link>
-               <Link to="/portfolio2" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}><li className="text-white hover:text-gray-500" style={{fontWeight:"200",fontSize:"18px", marginTop:"4px"}}>Termos e Condições</li></Link>
+              <li className="text-white" style={{fontWeight:"200",fontSize:"18px", marginTop:"4px"}}>Termos e Condições</li>
         </ul>
         </div>
         </div>

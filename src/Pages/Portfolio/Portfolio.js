@@ -166,11 +166,17 @@ const Portfolio = () => {
       <div className="grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-[0px] ">
         {filteredItems.map((item) => (
           <div key={item.id} className="rounded-lg p-4">
-            <img src={item.image} className="w-[830px] h- object-cover rounded-lg" />
+            <Link to="/portfolio2" onClick={()=>window.scrollTo({top:0, behavior:"smooth"})}> <img src={item.image} className="w-[830px] h- object-cover rounded-lg" /></Link>
             <h3 className="text-lg font-semibold mt-3">{item.title}</h3>
             <p className="text-gray-500">{item.category.join(",")}</p>
           </div>
         ))}
+      </div>
+      <div className="flex gap-[16px] justify-end mr-[25px] xl:mr-[16px] mt-[30px]">
+      <li className="list-none text-[#212529] text-[18px] font-[400]">1</li>
+      <li className="list-none text-gray-400 text-[18px] font-[400]">2</li>
+      <li className="list-none text-gray-400 text-[18px] font-[400]">3</li>
+      <li className="list-none text-gray-400 text-[18px] font-[400]">Próximo</li>
       </div>
     </div>
     <div className="mb-[60px] md:mb-0 pt-[40px]  md:pb-[120px] pl-[45px] sm:pl-[60px] xl:pl-[120px] pr-[0px] xl:pr-[999px]">
