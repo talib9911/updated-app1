@@ -22,7 +22,7 @@ const Portfolio2 = () => {
           >
             Delloite Building, London
           </h1>
-          <div className="w-full flex justify-between mt-[40px]">
+          <div className="w-full flex justify-between pr-[30px] sm:pr-[0px] mt-[40px]">
             <img src={lefta}/>
             <img src={righta}/>
           </div>
